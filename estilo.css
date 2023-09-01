@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?=swap');
 html, body {
     margin: 0;
 }
@@ -38,11 +39,13 @@ li:hover {
     color: white;
     padding-top: 5%;
     font-size: 50px;
+    font-family: 'Merriweather', serif;
 }
 #subtítulo {
     color: white;
     padding-left: 3%;
     padding-right: 3%;
+    font-family: 'Merriweather', serif;
 }
 #acao {
     color: white;
@@ -91,4 +94,25 @@ section {
     height: 40%;
     color: white;
  }
+ @media all and (max-width: 768px) {
+    #menu { 
+        visibility: hidden;
+    }
+    .coluna, .dois, .três, .quatro {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    #logo {
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+}
  
