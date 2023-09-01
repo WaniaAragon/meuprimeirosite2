@@ -94,15 +94,3 @@ section {
     height: 50%;
     color: white;
  }
- @media all and (max-width: 768px) {
-    #menu { 
-        visibility: hidden;
-    }
-    .coluna, .dois, .três, .quatro {
-        display: block;
-        width: 80%;
-        padding: 0;
-        margin: 10px auto;
-        float: none;
-    }
-    }
